@@ -31,3 +31,37 @@
     transform: rotate(360deg);
   }
 }
+
+#app-container {
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#target {
+  background-image: url("https://i.ibb.co/wCfjbd6/clean-plate.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 180px;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#item-holder {
+  background-color: pink;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 180px;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
